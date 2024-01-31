@@ -55,7 +55,6 @@ if [[ $flatpak_flag ]]; then
 fi
 
 declare -A patch_list=(
-    ["435.27.08"]='s/\x85\xc0\x89\xc3\x0f\x85\x68\xfa\xff\xff/\x31\xc0\x89\xc3\x0f\x85\x68\xfa\xff\xff/'
     ["440.26"]='s/\x85\xc0\x89\xc3\x0f\x85\xa9\xfa\xff\xff/\x31\xc0\x89\xc3\x0f\x85\xa9\xfa\xff\xff/'
     ["440.31"]='s/\x85\xc0\x89\xc3\x0f\x85\xa9\xfa\xff\xff/\x31\xc0\x89\xc3\x0f\x85\xa9\xfa\xff\xff/'
     ["440.33.01"]='s/\x85\xc0\x89\xc3\x0f\x85\xa9\xfa\xff\xff/\x31\xc0\x89\xc3\x0f\x85\xa9\xfa\xff\xff/'
@@ -138,6 +137,8 @@ declare -A patch_list=(
     ["470.141.03"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["470.161.03"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["470.182.03"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["470.199.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["470.223.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["495.29.05"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["495.44"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["495.46"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
@@ -167,143 +168,49 @@ declare -A patch_list=(
     ["525.89.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["525.105.17"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["525.116.03"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["525.116.04"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["525.125.06"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["525.147.05"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["530.30.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
     ["530.41.03"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
-)
-
-declare -A object_list=(
-    ["435.27.08"]='libnvidia-fbc.so'
-    ["440.26"]='libnvidia-fbc.so'
-    ["440.31"]='libnvidia-fbc.so'
-    ["440.33.01"]='libnvidia-fbc.so'
-    ["440.36"]='libnvidia-fbc.so'
-    ["440.43.01"]='libnvidia-fbc.so'
-    ["440.44"]='libnvidia-fbc.so'
-    ["440.48.02"]='libnvidia-fbc.so'
-    ["440.58.01"]='libnvidia-fbc.so'
-    ["440.58.02"]='libnvidia-fbc.so'
-    ["440.59"]='libnvidia-fbc.so'
-    ["440.64"]='libnvidia-fbc.so'
-    ["440.64.00"]='libnvidia-fbc.so'
-    ["440.66.02"]='libnvidia-fbc.so'
-    ["440.66.03"]='libnvidia-fbc.so'
-    ["440.66.04"]='libnvidia-fbc.so'
-    ["440.66.08"]='libnvidia-fbc.so'
-    ["440.66.09"]='libnvidia-fbc.so'
-    ["440.66.11"]='libnvidia-fbc.so'
-    ["440.66.12"]='libnvidia-fbc.so'
-    ["440.66.14"]='libnvidia-fbc.so'
-    ["440.66.15"]='libnvidia-fbc.so'
-    ["440.66.17"]='libnvidia-fbc.so'
-    ["440.82"]='libnvidia-fbc.so'
-    ["440.95.01"]='libnvidia-fbc.so'
-    ["440.100"]='libnvidia-fbc.so'
-    ["440.118.02"]='libnvidia-fbc.so'
-    ["450.36.06"]='libnvidia-fbc.so'
-    ["450.51"]='libnvidia-fbc.so'
-    ["450.51.05"]='libnvidia-fbc.so'
-    ["450.51.06"]='libnvidia-fbc.so'
-    ["450.56.01"]='libnvidia-fbc.so'
-    ["450.56.02"]='libnvidia-fbc.so'
-    ["450.56.06"]='libnvidia-fbc.so'
-    ["450.56.11"]='libnvidia-fbc.so'
-    ["450.57"]='libnvidia-fbc.so'
-    ["450.66"]='libnvidia-fbc.so'
-    ["450.80.02"]='libnvidia-fbc.so'
-    ["455.23.04"]='libnvidia-fbc.so'
-    ["455.23.05"]='libnvidia-fbc.so'
-    ["455.26.01"]='libnvidia-fbc.so'
-    ["455.26.02"]='libnvidia-fbc.so'
-    ["455.28"]='libnvidia-fbc.so'
-    ["455.32.00"]='libnvidia-fbc.so'
-    ["455.38"]='libnvidia-fbc.so'
-    ["455.45.01"]='libnvidia-fbc.so'
-    ["455.46.01"]='libnvidia-fbc.so'
-    ["455.46.02"]='libnvidia-fbc.so'
-    ["455.46.04"]='libnvidia-fbc.so'
-    ["455.50.02"]='libnvidia-fbc.so'
-    ["455.50.03"]='libnvidia-fbc.so'
-    ["455.50.04"]='libnvidia-fbc.so'
-    ["455.50.05"]='libnvidia-fbc.so'
-    ["455.50.07"]='libnvidia-fbc.so'
-    ["455.50.10"]='libnvidia-fbc.so'
-    ["460.27.04"]='libnvidia-fbc.so'
-    ["460.32.03"]='libnvidia-fbc.so'
-    ["460.39"]='libnvidia-fbc.so'
-    ["460.56"]='libnvidia-fbc.so'
-    ["460.67"]='libnvidia-fbc.so'
-    ["460.73.01"]='libnvidia-fbc.so'
-    ["460.80"]='libnvidia-fbc.so'
-    ["460.84"]='libnvidia-fbc.so'
-    ["460.91.03"]='libnvidia-fbc.so'
-    ["465.19.01"]='libnvidia-fbc.so'
-    ["465.24.02"]='libnvidia-fbc.so'
-    ["465.27"]='libnvidia-fbc.so'
-    ["465.31"]='libnvidia-fbc.so'
-    ["470.42.01"]='libnvidia-fbc.so'
-    ["470.57.02"]='libnvidia-fbc.so'
-    ["470.62.02"]='libnvidia-fbc.so'
-    ["470.62.05"]='libnvidia-fbc.so'
-    ["470.63.01"]='libnvidia-fbc.so'
-    ["470.74"]='libnvidia-fbc.so'
-    ["470.82.00"]='libnvidia-fbc.so'
-    ["470.82.01"]='libnvidia-fbc.so'
-    ["470.86"]='libnvidia-fbc.so'
-    ["470.94"]='libnvidia-fbc.so'
-    ["470.103.01"]='libnvidia-fbc.so'
-    ["470.129.06"]='libnvidia-fbc.so'
-    ["470.141.03"]='libnvidia-fbc.so'
-    ["470.161.03"]='libnvidia-fbc.so'
-    ["470.182.03"]='libnvidia-fbc.so'
-    ["495.29.05"]='libnvidia-fbc.so'
-    ["495.44"]='libnvidia-fbc.so'
-    ["495.46"]='libnvidia-fbc.so'
-    ["510.39.01"]='libnvidia-fbc.so'
-    ["510.47.03"]='libnvidia-fbc.so'
-    ["510.54"]='libnvidia-fbc.so'
-    ["510.60.02"]='libnvidia-fbc.so'
-    ["510.68.02"]='libnvidia-fbc.so'
-    ["510.73.05"]='libnvidia-fbc.so'
-    ["510.73.08"]='libnvidia-fbc.so'
-    ["510.85.02"]='libnvidia-fbc.so'
-    ["510.108.03"]='libnvidia-fbc.so'
-    ["515.43.04"]='libnvidia-fbc.so'
-    ["515.48.07"]='libnvidia-fbc.so'
-    ["515.57"]='libnvidia-fbc.so'
-    ["515.65.01"]='libnvidia-fbc.so'
-    ["515.76"]='libnvidia-fbc.so'
-    ["515.86.01"]='libnvidia-fbc.so'
-    ["515.105.01"]='libnvidia-fbc.so'
-    ["520.56.06"]='libnvidia-fbc.so'
-    ["520.61.05"]='libnvidia-fbc.so'
-    ["525.60.11"]='libnvidia-fbc.so'
-    ["525.60.13"]='libnvidia-fbc.so'
-    ["525.78.01"]='libnvidia-fbc.so'
-    ["525.85.05"]='libnvidia-fbc.so'
-    ["525.85.12"]='libnvidia-fbc.so'
-    ["525.89.02"]='libnvidia-fbc.so'
-    ["525.105.17"]='libnvidia-fbc.so'
-    ["525.116.03"]='libnvidia-fbc.so'
-    ["530.30.02"]='libnvidia-fbc.so'
-    ["530.41.03"]='libnvidia-fbc.so'
+    ["535.43.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["535.54.03"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x00\x72\x08\x48/'
+    ["535.86.05"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["535.86.10"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["535.98"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["535.104.05"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["535.104.12"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["535.113.01"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["535.129.03"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["535.146.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["535.154.05"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["545.23.06"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["545.23.08"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["545.29.02"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["545.29.06"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
+    ["550.40.07"]='s/\x83\xfe\x01\x73\x08\x48/\x83\xfe\x01\x90\x90\x48/'
 )
 
 check_version_supported () {
     local ver="$1"
-    [[ "${patch_list[$ver]+isset}" && "${object_list[$ver]+isset}" ]]
+    [[ "${patch_list[$ver]+isset}" ]]
 }
 
 get_flatpak_driver_path () {
     # Flatpak's package versioning replaces '.' by '-'
     version="$(echo "$1" | tr '.' '-')"
+    # Attempts to patch system flatpak
     if path=$(flatpak info --show-location "org.freedesktop.Platform.GL.nvidia-${version}" 2>/dev/null); then
+        echo "$path/files/lib"
+    # If it isn't found will login as the user that envoked sudo & patch this version
+    elif path=$(su -c - ${SUDO_USER} 'flatpak info --show-location "org.freedesktop.Platform.GL.nvidia-'${version}'"'); then
         echo "$path/files/lib"
     fi
 }
 
 get_supported_versions () {
     for drv in "${!patch_list[@]}"; do
-        [[ "${object_list[$drv]+isset}" ]] && echo "$drv"
+        echo "$drv"
     done | sort -t. -n
     return 0
 }
@@ -342,7 +249,7 @@ patch_common () {
     fi
 
     patch="${patch_list[$driver_version]}"
-    object="${object_list[$driver_version]}"
+    object='libnvidia-fbc.so'
 
     if [[ $flatpak_flag ]]; then
         driver_dir=$(get_flatpak_driver_path "$driver_version")
@@ -358,6 +265,8 @@ patch_common () {
     declare -a driver_locations=(
         '/usr/lib/x86_64-linux-gnu'
         '/usr/lib/x86_64-linux-gnu/nvidia/current/'
+        '/usr/lib/x86_64-linux-gnu/nvidia/tesla/'
+        "/usr/lib/x86_64-linux-gnu/nvidia/tesla-${driver_version%%.*}/"
         '/usr/lib64'
         '/usr/lib'
         "/usr/lib/nvidia-${driver_version%%.*}"
@@ -375,6 +284,20 @@ patch_common () {
 
 }
 
+ensure_bytes_are_valid () {
+    driver_file="$driver_dir/$object.$driver_version"
+    original_bytes=$(awk -F / '$2 { print $2 }' <<< "$patch")
+    patched_bytes=$(awk -F / '$3 { print $3 }' <<< "$patch")
+    if LC_ALL=C grep -qaP "$original_bytes" "$driver_file"; then
+        return 0 # file is ready to be patched
+    fi
+    if LC_ALL=C grep -qaP "$patched_bytes" "$driver_file"; then
+        return 0 # file is likely patched already
+    fi
+    echo "Error: Could not find bytes '$original_bytes' to patch in '$driver_file'."
+    exit 1
+}
+
 rollback () {
     patch_common
     if [[ -f "$backup_path/$object.$driver_version$backup_suffix" ]]; then
@@ -389,6 +312,7 @@ rollback () {
 
 patch () {
     patch_common
+    ensure_bytes_are_valid
     if [[ -f "$backup_path/$object.$driver_version$backup_suffix" ]]; then
         bkp_hash="$(sha1sum "$backup_path/$object.$driver_version$backup_suffix" | cut -f1 -d\ )"
         drv_hash="$(sha1sum "$driver_dir/$object.$driver_version" | cut -f1 -d\ )"
