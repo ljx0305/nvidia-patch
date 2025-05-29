@@ -712,6 +712,12 @@
                     "driver_url": "https://international.download.nvidia.com/XFree86/Linux-x86_64/470.223.02/NVIDIA-Linux-x86_64-470.223.02.run"
                 },
                 {
+                    "version": "470.239.06",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "https://international.download.nvidia.com/XFree86/Linux-x86_64/470.239.06/NVIDIA-Linux-x86_64-470.239.06.run"
+                },
+                {
                     "version": "510.39.01",
                     "nvenc_patch": true,
                     "nvfbc_patch": true,
@@ -955,6 +961,12 @@
                     "driver_url": "https://international.download.nvidia.com/XFree86/Linux-x86_64/535.129.03/NVIDIA-Linux-x86_64-535.129.03.run"
                 },
                 {
+                    "version": "535.247.01",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "https://international.download.nvidia.com/XFree86/Linux-x86_64/535.247.01/NVIDIA-Linux-x86_64-535.247.01.run"
+                },
+                {
                     "version": "545.23.06",
                     "nvenc_patch": true,
                     "nvfbc_patch": true,
@@ -995,6 +1007,240 @@
                     "nvenc_patch": true,
                     "nvfbc_patch": true,
                     "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.40.07/NVIDIA-Linux-x86_64-550.40.07.run"
+                },
+                {
+                    "version": "535.43.25",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "https://developer.nvidia.com/downloads/vulkan-beta-5354325-linux"
+                },
+                {
+                    "version": "550.54.14",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.54.14/NVIDIA-Linux-x86_64-550.54.14.run"
+                },
+                {
+                    "version": "550.54.15",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": ""
+                },
+                {
+                    "version": "535.161.07",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/535.161.07/NVIDIA-Linux-x86_64-535.161.07.run"
+                },
+                {
+                    "version": "535.161.08",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": ""
+                },
+                {
+                    "version": "550.67",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.67/NVIDIA-Linux-x86_64-550.67.run"
+                },
+                {
+                    "version": "550.76",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.76/NVIDIA-Linux-x86_64-550.76.run"
+                },
+                {
+                    "version": "550.78",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.78/NVIDIA-Linux-x86_64-550.78.run"
+                },
+                {
+                    "version": "535.171.04",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/535.171.04/NVIDIA-Linux-x86_64-535.171.04.run"
+                },
+                {
+                    "version": "555.42.02",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/555.42.02/NVIDIA-Linux-x86_64-555.42.02.run"
+                },
+                {
+                    "version": "470.256.02",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/470.256.02/NVIDIA-Linux-x86_64-470.256.02.run"
+                },
+                {
+                    "version": "550.90.07",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.90.07/NVIDIA-Linux-x86_64-550.90.07.run"
+                },
+                {
+                    "version": "535.183.01",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/535.183.01/NVIDIA-Linux-x86_64-535.183.01.run"
+                },
+                {
+                    "version": "535.183.06",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/tesla/535.183.06/NVIDIA-Linux-x86_64-535.183.06.run"
+                },
+                {
+                    "version": "555.58",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/555.58/NVIDIA-Linux-x86_64-555.58.run"
+                },
+                {
+                    "version": "555.58.02",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/555.58.02/NVIDIA-Linux-x86_64-555.58.02.run"
+                },
+                {
+                    "version": "550.100",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.100/NVIDIA-Linux-x86_64-550.100.run"
+                },
+                {
+                    "version": "550.107.02",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.107.02/NVIDIA-Linux-x86_64-550.107.02.run"
+                },
+                {
+                    "version": "560.28.03",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": false,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/560.28.03/NVIDIA-Linux-x86_64-560.28.03.run"
+                },
+                {
+                    "version": "560.35.03",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": false,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/560.35.03/NVIDIA-Linux-x86_64-560.35.03.run"
+                },
+                {
+                    "version": "550.120",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.120/NVIDIA-Linux-x86_64-550.120.run"
+                },
+                {
+                    "version": "565.57.01",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": false,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/565.57.01/NVIDIA-Linux-x86_64-565.57.01.run"
+                },
+                {
+                    "version": "550.127.05",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.127.05/NVIDIA-Linux-x86_64-550.127.05.run"
+                },
+                {
+                    "version": "550.135",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.135/NVIDIA-Linux-x86_64-550.135.run"
+                },
+                {
+                    "version": "560.35.05",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": false,
+                    "driver_url": "https://developer.download.nvidia.com/compute/cuda/12.6.3/local_installers/cuda_12.6.3_560.35.05_linux.run"
+                },
+                {
+                    "version": "565.77",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": false,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/565.77/NVIDIA-Linux-x86_64-565.77.run"
+                },
+                {
+                    "version": "550.142",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.142/NVIDIA-Linux-x86_64-550.142.run"
+                },
+                {
+                    "version": "535.216.01",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/535.216.01/NVIDIA-Linux-x86_64-535.216.01.run"
+                },
+                {
+                    "version": "570.86.16",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/570.86.16/NVIDIA-Linux-x86_64-570.86.16.run"
+                },
+                {
+                    "version": "570.86.15",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/tesla/570.86.15/NVIDIA-Linux-x86_64-570.86.15.run"
+                },
+                {
+                    "version": "570.124.04",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/570.124.04/NVIDIA-Linux-x86_64-570.124.04.run"
+                },
+                {
+                    "version": "570.124.06",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-drivers-570_570.124.06-1_amd64.deb"
+                },
+                {
+                    "version": "570.133.07",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/570.133.07/NVIDIA-Linux-x86_64-570.133.07.run"
+                },
+                {
+                    "version": "570.133.20",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "https://international.download.nvidia.com/tesla/570.133.20/NVIDIA-Linux-x86_64-570.133.20.run"
+                },
+                {
+                    "version": "570.144",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "https://international.download.nvidia.com/XFree86/Linux-x86_64/570.144/NVIDIA-Linux-x86_64-570.144.run"
+                },
+                {
+                    "version": "575.51.02",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/575.51.02/NVIDIA-Linux-x86_64-575.51.02.run"
+                },
+                {
+                    "version": "550.163.01",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/550.163.01/NVIDIA-Linux-x86_64-550.163.01.run"
+                },
+                {
+                    "version": "535.230.02",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/535.230.02/NVIDIA-Linux-x86_64-535.230.02.run"
+                },
+                {
+                    "version": "570.153.02",
+                    "nvenc_patch": true,
+                    "nvfbc_patch": true,
+                    "driver_url": "http://international.download.nvidia.com/XFree86/Linux-x86_64/570.153.02/NVIDIA-Linux-x86_64-570.153.02.run"
                 }
             ],
             "example": {
@@ -3663,6 +3909,15 @@
                 {
                     "os": "win10",
                     "product": "GeForce",
+                    "version": "474.82",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/474.82/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/474.82/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/474.82/474.82-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
                     "version": "511.79",
                     "variant": "DCH",
                     "patch64_url": "win10_x64/511.79/nvencodeapi64.1337",
@@ -4199,6 +4454,294 @@
                     "patch64_url": "win10_x64/551.23/nvencodeapi64.1337",
                     "patch32_url": "win10_x64/551.23/nvencodeapi.1337",
                     "driver_url": "https://international.download.nvidia.com/Windows/551.23/551.23-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "551.46",
+                    "variant": "DCH (Hotfix)",
+                    "patch64_url": "win10_x64/551.46/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/551.46/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/551.46hf/551.46-desktop-notebook-win10-win11-64bit-international-dch.hf.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "551.52",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/551.52/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/551.52/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/551.52/551.52-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "551.61",
+                    "variant": "DCH / Studio Driver",
+                    "patch64_url": "win10_x64/551.61/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/551.61/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/551.61/551.61-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "551.68",
+                    "variant": "DCH (Hotfix)",
+                    "patch64_url": "win10_x64/551.68/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/551.68/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/551.68hf/551.68-desktop-notebook-win10-win11-64bit-international-dch.hf.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "551.76",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/551.76/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/551.76/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/551.76/551.76-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "551.86",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/551.86/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/551.86/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/551.86/551.86-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "552.12",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/552.12/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/552.12/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/552.12/552.12-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "552.22",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/552.22/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/552.22/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/552.22/552.22-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "552.44",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/552.44/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/552.44/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/552.44/552.44-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "556.12",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/556.12/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/556.12/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/556.12/556.12-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "555.85",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/555.85/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/555.85/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/555.85/555.85-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "555.99",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/555.99/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/555.99/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/555.99/555.99-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "560.70",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/560.70/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/560.70/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/560.70/560.70-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "560.81",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/560.81/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/560.81/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/560.81/560.81-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "560.94",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/560.94/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/560.94/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/560.94/560.94-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "561.09",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/561.09/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/561.09/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/561.09/561.09-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "565.90",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/565.90/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/565.90/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/565.90/565.90-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "566.03",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/566.03/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/566.03/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/566.03/566.03-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "566.14",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/566.14/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/566.14/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/566.14/566.14-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "566.36",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/566.36/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/566.36/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/566.36/566.36-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "572.16",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/572.16/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/572.16/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/572.16/572.16-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "572.42",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/572.42/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/572.42/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/572.42/572.42-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "572.47",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/572.47/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/572.47/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/572.47/572.47-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "572.60",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/572.60/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/572.60/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/572.60/572.60-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "572.70",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/572.70/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/572.70/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/572.70/572.70-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "572.75",
+                    "variant": "DCH (Hotfix)",
+                    "patch64_url": "win10_x64/572.75/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/572.75/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/572.75hf/572.75-desktop-notebook-win10-win11-64bit-international-dch.hf.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "572.83",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/572.83/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/572.83/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/572.83/572.83-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "576.02",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/576.02/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/576.02/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/576.02/576.02-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "576.15",
+                    "variant": "DCH (Hotfix)",
+                    "patch64_url": "win10_x64/576.15/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/576.15/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/576.15hf/576.15-desktop-win10-win11-64bit-international-dch-hf.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "576.28",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/576.28/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/576.28/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/576.28/576.28-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "576.40",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/576.40/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/576.40/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/576.40/576.40-desktop-win10-win11-64bit-international-dch-whql.exe"
+                },
+                {
+                    "os": "win10",
+                    "product": "GeForce",
+                    "version": "576.52",
+                    "variant": "DCH",
+                    "patch64_url": "win10_x64/576.52/nvencodeapi64.1337",
+                    "patch32_url": "win10_x64/576.52/nvencodeapi.1337",
+                    "driver_url": "https://international.download.nvidia.com/Windows/576.52/576.52-desktop-win10-win11-64bit-international-dch-whql.exe"
                 }
             ]
         }
